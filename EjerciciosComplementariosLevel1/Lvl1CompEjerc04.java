@@ -25,7 +25,7 @@ public class Lvl1CompEjerc04 {
 
         int resultado = num;
         for (int i = num-1; i > 1; i--) {
-            resultado = resultado * i;
+            resultado *= i;
         }
         System.out.println("El factorial de " + num + " es: " + resultado);
 

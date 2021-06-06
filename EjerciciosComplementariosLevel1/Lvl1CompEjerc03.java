@@ -26,7 +26,7 @@ public class Lvl1CompEjerc03 {
 
         String linea = "";
         for (int i = 1; i <= num; i++) {
-            linea = linea + i + " ";
+            linea += i + " ";
             System.out.println(linea);
         }
 
