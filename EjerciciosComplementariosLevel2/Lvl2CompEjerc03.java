@@ -21,6 +21,7 @@ public class Lvl2CompEjerc03 {
         System.out.println();   // Salto de línea para que se lea bien en consola
         ArrayList<String> numCartasArray = new ArrayList<String>();
 
+        // Array que simula input
         String[] numCartas = {"A", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"};        
         
         for (int i = 0; i < numCartas.length; i++) {
