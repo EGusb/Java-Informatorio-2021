@@ -25,7 +25,7 @@ public class Lvl2CompEjerc03 {
         
         for (int i = 0; i < numCartas.length; i++) {
             numCartasArray.add(numCartas[i]);
-        }     
+        }
 
         System.out.println("Imprimiendo en orden...");
         for (int i = 0; i < numCartasArray.size(); i++) {
