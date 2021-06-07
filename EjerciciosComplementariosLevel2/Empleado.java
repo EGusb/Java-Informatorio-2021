@@ -3,7 +3,7 @@ public class Empleado {
     private int dni;
     private int horasTrabajadas;
     private int	valorPorHora;
-
+    
     public void setNombre(String name) {
         this.nombre = name;
     }
@@ -16,8 +16,8 @@ public class Empleado {
         this.horasTrabajadas = hours;
     }
 
-    public void setValorPorHora(int value) {
-        this.valorPorHora = value;
+    public void setValorPorHora(int val) {
+        this.valorPorHora = val;
     }
 
     public String getNombre() {
