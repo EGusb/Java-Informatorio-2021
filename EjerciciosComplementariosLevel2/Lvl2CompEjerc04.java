@@ -16,6 +16,7 @@ public class Lvl2CompEjerc04 {
         int cantidadCursos = 3;     // Cantidad de cursos de alumnos
         System.out.println("Cantidad de cursos: " + cantidadCursos); System.out.println();
         
+        // Array que simula input
         String[] nombres = { "Alejandro", "Bruno", "Cecilia", "Daniela", "Ernesto", "Florencia", "Gaston", "Hilda",
                 "Ivan", "Jacqueline", "Kevin", "Leonardo", };
         for (int i = 0; i < nombres.length; i++) {  // Agrego todos los nombres a un ArrayList, en orden
