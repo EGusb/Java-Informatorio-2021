@@ -1,8 +1,8 @@
 //package EjercicioPropuesto5;
 
-import java.time.LocalDate;
-import java.time.Period;
+import java.time.*;
 import java.time.format.DateTimeFormatter;
+import java.time.temporal.ChronoUnit;
 
 public class Empleado {
     private String nombre;
@@ -50,9 +50,18 @@ public class Empleado {
     }
 
     public int getEdad() {
-        return Period.between(this.nacimiento, LocalDate.now()).getYears();
+        return (int) ChronoUnit.YEARS.between(this.nacimiento, LocalDate.now());
     }
 
+    public int getEdadDias() {
+        return (int) ChronoUnit.DAYS.between(this.nacimiento, LocalDate.now());
+    }
+
+    /**
+     * Esta función devuelve la representación del Empleado de la sgte. forma:
+     * {Nombre},{Apellido},{Fecha nacimiento},{Sueldo}
+     * La fecha de nacimiento es con el formato: dd-MM-yyyy
+     */
     @Override
     public String toString() {
         return this.nombre + ',' +

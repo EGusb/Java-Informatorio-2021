@@ -1,6 +1,9 @@
 Analia,Aristides,01-07-2000,23500.50
 Bernardo,Belnades,29-02-1969,68900.15
-Carolina,Croll,15-09-1986,45000.00
+Carolina,Croll,15-09-1986,101530.00
 Dario,Durnes,06-12-1975,52375.60
 Esteban,Embruglia,07-10-1996,38600.00
 Florencia,Fernandez,31-08-1991,39900.15
+Orlando,Bundy,05-09-1990,10000.00
+Lucía,Margarette,13-06-1951,69016.5
+Augusto,Fernandez,29-04-1978,378521.69
