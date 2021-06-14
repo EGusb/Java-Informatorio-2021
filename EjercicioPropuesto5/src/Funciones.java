@@ -60,10 +60,11 @@ public class Funciones {
      */
     public static List<Empleado> getEmpleadosPorLetraApellido(List<Empleado> empleados, String letraRequerida) {
         List<Empleado> resultado = new ArrayList<>();
+        letraRequerida = letraRequerida.toUpperCase();
 
         for (Empleado empleado : empleados) {
-            String letraInicio = String.valueOf(empleado.getApellido().charAt(0));
-            if (letraRequerida.equalsIgnoreCase(letraInicio)) {
+            //String letraInicio = String.valueOf(empleado.getApellido().charAt(0));
+            if (empleado.getApellido().toUpperCase().startsWith(letraRequerida)) {
                 resultado.add(empleado);
             }
         }

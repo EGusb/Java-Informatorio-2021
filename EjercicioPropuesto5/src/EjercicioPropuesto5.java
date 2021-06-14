@@ -19,8 +19,8 @@ public class EjercicioPropuesto5 {
         System.out.println();
 
 
-        String letraInicio = "B";
-        List<Empleado> prueba = Funciones.getEmpleadosPorLetraApellido(empleados, "B");
+        String letraInicio = "F";
+        List<Empleado> prueba = Funciones.getEmpleadosPorLetraApellido(empleados, letraInicio);
         System.out.println("Lista de empleados cuyos apellidos empiezan con la letra '" + letraInicio + "':");
         System.out.println("APELLIDO Y NOMBRE             FECHA NACIMIENTO     EDAD (años)    SUELDO");
         for (Empleado empleado: prueba) {
